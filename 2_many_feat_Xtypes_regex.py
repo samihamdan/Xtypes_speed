@@ -103,7 +103,7 @@ for n_feat in range(1_000, 10_001, 2_000):
     df_timings = pd.concat([df_timings, _df])
     print(df_timings)
 
-df_timings.to_csv("save_that_timing_of_Xtypes.csv")
+df_timings.to_csv("save_that_timing_of_Xtypes_regex.csv")
 print(df_timings)
 
 # %%
